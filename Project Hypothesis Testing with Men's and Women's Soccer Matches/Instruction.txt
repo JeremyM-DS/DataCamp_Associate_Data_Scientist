@@ -1,0 +1,10 @@
+Instructions du projet
+Réalisez un test d’hypothèse approprié afin de déterminer la p-value, et donc la conclusion, pour savoir s’il faut rejeter ou ne pas rejeter l’hypothèse nulle selon laquelle le nombre moyen de buts marqués lors des matchs internationaux féminins est identique à celui des matchs masculins. Utilisez un niveau de signification de 10 %.
+
+Pour cette analyse, vous utiliserez les matchs officiels de la FIFA World Cup depuis le 2002-01-01, et vous supposerez également que chaque match est entièrement indépendant, c’est-à-dire que la forme des équipes est ignorée.
+
+La p-value et le résultat du test doivent être stockés dans un dictionnaire nommé result_dict sous la forme :
+
+result_dict = {"p_val": p_val, "result": result}
+
+où p_val est la p-value et result est soit la chaîne de caractères "fail to reject" soit "reject", selon le résultat du test.

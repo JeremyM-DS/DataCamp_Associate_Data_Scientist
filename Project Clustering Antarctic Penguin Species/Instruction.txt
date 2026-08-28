@@ -1,0 +1,5 @@
+Instructions du projet
+Utilisez vos compétences en apprentissage non supervisé pour identifier des clusters dans le jeu de données des manchots !
+
+Importez, examinez et prétraitez le jeu de données "penguins.csv".
+Réalisez une analyse de clustering en choisissant un nombre de clusters raisonnable et calculez les moyennes par cluster. La sortie doit être un DataFrame nommé stat_penguins avec une ligne par cluster, indiquant la moyenne des variables originales (ou des colonnes de "penguins.csv") par cluster. stat_penguins ne doit inclure aucune colonne non numérique.

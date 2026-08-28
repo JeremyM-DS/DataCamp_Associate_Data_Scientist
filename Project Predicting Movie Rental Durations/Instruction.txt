@@ -1,0 +1,19 @@
+Instructions du projet
+Dans ce projet, vous utiliserez des modèles de régression pour prédire le nombre de jours pendant lesquels un client loue des DVD.
+
+Comme pour la plupart des projets de data science, vous devrez prétraiter les données fournies, dans ce cas, un fichier csv appelé rental_info.csv. Plus précisément, vous devez :
+
+Lire le fichier csv rental_info.csv en utilisant pandas.
+Créer une colonne nommée "rental_length_days" à partir des colonnes "return_date" et "rental_date", et l’ajouter au DataFrame pandas. Cette colonne doit indiquer le nombre de jours pendant lesquels un DVD a été loué par un client.
+Créer deux colonnes de variables indicatrices à partir de "special_features", qui prennent la valeur 1 lorsque :
+La valeur est "Deleted Scenes", à stocker dans une colonne appelée "deleted_scenes".
+La valeur est "Behind the Scenes", à stocker dans une colonne appelée "behind_the_scenes".
+Créer un DataFrame pandas appelé X contenant toutes les variables explicatives appropriées pour exécuter les modèles de régression, en évitant les colonnes qui divulguent des informations sur la cible.
+Choisir "rental_length_days" comme colonne cible et l’enregistrer comme une Series pandas appelée y.
+Après le prétraitement, vous devrez :
+
+Diviser les données en jeux d’entraînement et de test X_train, y_train, X_test et y_test, en évitant toute variable qui divulgue des informations sur la variable cible, et inclure 20 % du total des données dans le jeu de test.
+Définir random_state à 9 chaque fois que vous utilisez une fonction/méthode impliquant de l’aléatoire, par exemple lors d’une séparation entraînement-test.
+Recommander un modèle donnant une erreur quadratique moyenne (MSE) inférieure à 3 sur le jeu de test
+
+Enregistrer le modèle que vous recommanderiez dans une variable nommée best_model, et enregistrer sa MSE sur le jeu de test dans best_mse.
