@@ -1,0 +1,17 @@
+Instructions du projet
+Quelles écoles de NYC obtiennent les meilleurs résultats en mathématiques ?
+
+Les meilleurs résultats en mathématiques sont d’au moins 80 % du *score maximal possible de 800* en mathématiques.
+Enregistrez vos résultats dans un DataFrame pandas nommé best_math_schools, incluant les colonnes "school_name" et "average_math", trié par "average_math" par ordre décroissant.
+Quelles sont les 10 meilleures écoles selon le score SAT combiné ?
+
+Enregistrez vos résultats dans un DataFrame pandas nommé top_10_schools contenant "school_name" et une nouvelle colonne nommée "total_SAT", avec des résultats triés par "total_SAT" par ordre décroissant ("total_SAT" étant la somme des scores de mathématiques, de lecture et d’écriture).
+Quel arrondissement unique présente l’écart type le plus élevé pour le score SAT combiné ?
+
+Enregistrez vos résultats dans un DataFrame pandas nommé largest_std_dev.
+Le DataFrame doit contenir une seule ligne, avec :
+"borough" - le nom de l’arrondissement de NYC ayant l’écart type le plus élevé de "total_SAT".
+"num_schools" - le nombre d’écoles dans l’arrondissement.
+"average_SAT" - la moyenne de "total_SAT".
+"std_SAT" - l’écart type de "total_SAT".
+Arrondissez toutes les valeurs numériques à deux décimales.

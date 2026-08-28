@@ -1,0 +1,8 @@
+Instructions du projet
+Effectuez une analyse exploratoire des données sur le fichier netflix_data.csv pour mieux comprendre les films de la décennie 1990.
+
+Quelle a été la durée de film la plus fréquente dans les années 1990 ? Enregistrez une réponse approximative sous forme d’entier nommé duration (utilisez 1990 comme année de début de la décennie).
+
+Un film est considéré comme court s’il dure moins de 90 minutes. Comptez le nombre de films d’action courts sortis dans les années 1990 et enregistrez cet entier sous le nom short_movie_count.
+
+N’hésitez pas à expérimenter après avoir soumis le projet !

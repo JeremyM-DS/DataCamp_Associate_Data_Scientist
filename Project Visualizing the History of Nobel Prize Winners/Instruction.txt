@@ -1,0 +1,18 @@
+Instructions du projet
+Analysez les données des lauréats du prix Nobel et identifiez des tendances en répondant aux questions suivantes :
+
+Quel est le genre le plus fréquemment récompensé et le pays de naissance le plus courant ?
+
+Stockez vos réponses dans des variables de type chaîne top_gender et top_country.
+Quelle décennie a eu le ratio le plus élevé de lauréats nés aux États-Unis par rapport au nombre total de lauréats, toutes catégories confondues ?
+
+Stockez cette valeur dans un entier nommé max_decade_usa.
+Quelle combinaison de décennie et de catégorie du prix Nobel a présenté la plus forte proportion de lauréates ?
+
+Stockez ceci dans un dictionnaire nommé max_female_dict où la décennie est la clé et la catégorie est la valeur. Il ne doit y avoir qu’une seule paire clé:valeur.
+Qui fut la première femme à recevoir un prix Nobel, et dans quelle catégorie ?
+
+Enregistrez vos réponses sous forme de chaînes first_woman_name et first_woman_category.
+Quelles personnes ou organisations ont remporté plus d’un prix Nobel au fil des années ?
+
+Stockez les noms complets dans une liste nommée repeat_list.
