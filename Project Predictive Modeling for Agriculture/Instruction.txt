@@ -1,0 +1,6 @@
+Instructions du projet
+Identifiez l’unique variable qui présente la meilleure performance prédictive pour la classification des types de culture.
+
+Trouvez, dans le jeu de données, la variable qui produit le meilleur score pour prédire "crop".
+À partir de cette information, créez une variable appelée best_predictive_feature, qui :
+Doit être un dictionary contenant le nom de la meilleure variable prédictive comme clé et la valeur du score d’évaluation (pour la métrique choisie) comme valeur.
