@@ -1,0 +1,10 @@
+Instructions du projet
+Le Head Data Scientist de Training Data Ltd. vous a demandé de créer un DataFrame nommé ds_jobs_transformed qui stocke les données de customer_train.csv de manière beaucoup plus efficace. Plus précisément, il a défini les exigences suivantes :
+
+Les colonnes contenant des catégories avec seulement deux modalités doivent être stockées en booléens (bool).
+Les colonnes contenant uniquement des entiers doivent être stockées en entiers 32 bits (int32).
+Les colonnes contenant des nombres à virgule flottante doivent être stockées en floats 16 bits (float16).
+Les colonnes contenant des données catégorielles nominales doivent être stockées avec le type de données category.
+Les colonnes contenant des données catégorielles ordinales doivent être stockées comme catégories ordonnées, et non mappées vers des valeurs numériques, avec un ordre qui reflète l’ordre naturel de la colonne.
+Le DataFrame doit être filtré pour ne contenir que les étudiants ayant au moins 10 ans d’expérience dans des entreprises comptant au minimum 1000 employés, car leur base de recruteurs est adaptée à des professionnels plus expérimentés dans des entreprises de type enterprise.
+Si vous appelez les méthodes .info() ou .memory_usage() sur ds_jobs et ds_jobs_transformed après le prétraitement, vous devriez constater une diminution substantielle de l’utilisation mémoire.

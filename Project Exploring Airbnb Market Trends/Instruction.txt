@@ -1,0 +1,9 @@
+Instructions du projet
+En tant que consultant travaillant pour une start-up immobilière, vous avez collecté des données d’annonces Airbnb provenant de diverses sources afin d’étudier le marché de la location de courte durée à New York. Vous allez analyser ces données pour fournir des informations sur les chambres privées à l’entreprise immobilière.
+
+Il y a trois fichiers dans le dossier data : airbnb_price.csv, airbnb_room_type.xlsx, airbnb_last_review.tsv.
+
+Quelles sont les dates des avis les plus anciens et les plus récents ?
+Combien d’annonces sont des chambres privées ?
+Quel est le prix moyen des annonces pour toutes les chambres (arrondi au centime le plus proche) ?
+Combinez ces quatre valeurs dans un tibble appelé review_dates avec quatre colonnes : first_reviewed, last_reviewed, nb_private_rooms et avg_price. Le tibble ne doit contenir qu’une seule ligne de valeurs.

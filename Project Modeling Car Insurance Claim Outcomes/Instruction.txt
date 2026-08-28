@@ -1,0 +1,3 @@
+Instructions du projet
+Identifiez l’unique variable des données qui prédit le mieux si un client déposera une réclamation (la colonne "outcome"), en excluant la colonne "id".
+Enregistrez le résultat dans un DataFrame nommé best_feature_df, contenant des colonnes nommées "best_feature" et "best_accuracy", avec le nom de la variable ayant la meilleure précision et le score de précision correspondant.
