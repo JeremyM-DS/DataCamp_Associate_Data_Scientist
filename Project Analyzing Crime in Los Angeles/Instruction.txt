@@ -1,6 +1,0 @@
-Instructions du projet
-Explorez le jeu de données crimes.csv et utilisez vos conclusions pour répondre aux questions suivantes :
-
-Quelle heure présente la fréquence la plus élevée de crimes ? Stockez-la dans une variable entière appelée peak_crime_hour.
-Quelle zone présente la fréquence la plus élevée de crimes nocturnes (crimes commis entre 22h00 et 3h59) ? Enregistrez-la dans une variable de type chaîne appelée peak_night_crime_location.
-Identifiez le nombre de crimes commis contre des victimes de différents groupes d’âge. Enregistrez-le dans une Series pandas appelée victim_ages, avec comme index les libellés de groupes d’âge "0-17", "18-25", "26-34", "35-44", "45-54", "55-64", et "65+", et comme valeurs les fréquences des crimes.
